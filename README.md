@@ -12,3 +12,5 @@ eb deploy
 echo #step:4 get deployment health check and Status
 eb health
 eb status
+
+Note: environment myeb-env-1 should exist prior to running above commands in jenkins post build action otherwise build fails
